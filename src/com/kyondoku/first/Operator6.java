@@ -13,7 +13,7 @@ public class Operator6 {
 		System.out.println(str2.equals(str1));
 		System.out.println("안녕1".equals(str1));
 		
-//		문자열 비교는 무조건 equals로 해야됨
+//		String(문자열) 비교는 무조건 equals로 해야됨
 		
 	}
 }

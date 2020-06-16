@@ -1,4 +1,4 @@
-package com.kyondoku.first.repeat;
+package com.kyondoku.first.level2;
 
 public class For2 {
 
