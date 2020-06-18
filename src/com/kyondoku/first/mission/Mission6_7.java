@@ -6,7 +6,7 @@ public class Mission6_7 {
 		int star = 5;
 		
 		for(int i=1; i<=star; i++) {
-			for(int z=star; z>0; z--) {
+			for(int z=5; z>0; z--) {
 				System.out.print(i<z ? " " : "*");
 				
 			}
