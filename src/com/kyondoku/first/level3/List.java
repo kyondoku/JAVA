@@ -1,0 +1,25 @@
+package com.kyondoku.first.level3;
+
+import java.util.Arrays;
+
+public class List {
+
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int[] temp = new int[arr.length+1];
+
+		for(int i=0; i<arr.length; i++) {
+			temp[i] = arr[i];
+		}
+
+		temp[arr.length] = arr.length+1;
+		arr = temp;
+		
+//		리터럴을 4만 사용할 수 있고
+//		arr = new int[]{1, 2, 3, 4}; 금지
+		
+
+		System.out.println(Arrays.toString(arr));
+	}
+
+}
