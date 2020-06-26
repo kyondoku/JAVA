@@ -16,6 +16,14 @@ public class Practice_GreatMission1 {
 		System.out.println(rArr.length);
 		
 		for(int i=0; i<rArr.length; i++) {
+			rArr[i] = (int)(Math.random() * 9 + 1);
+			
+			for(int z=0; z<i; z++) {
+				if(rArr[i] == rArr[z]) {
+					i--;
+					break;
+				}
+			}
  		
 		
 		}
