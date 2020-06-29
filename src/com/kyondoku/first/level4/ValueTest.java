@@ -12,8 +12,9 @@ public class ValueTest {
 //									오브젝트의 equals는 기본적으로 주소값 비교.
 //	                                true인 이유 : string은 equals
 		
-		Value val1 = new Value(1);
-		Value val2 = new Value(1);
+		Value val1 = new Value(1); // int val =1
+		Value val2 = new Value(1); // int val =1
+		val2.getVal(); 
 		
 		System.out.println("3: " + (val1 == val2));
 		System.out.println("4: " + val1.equals(val2));

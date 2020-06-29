@@ -7,7 +7,13 @@ public class ClassTest2 {
 	ClassA clsA3 = new ClassA();*/
 	
 	ClassA clsA = new ClassB();
+	
 	clsA.print();
+//	clsA.showMe();
+	
+	ClassB clsB = (ClassB)clsA;
+//	(ClassB)가 없으면 빨간줄이 뜨지만 사실상 문제는 없다. 컴파일러가 염려를 하는것임.
+	clsB.showMe();
 	
 	
 	}
