@@ -24,5 +24,12 @@ public class Value {
 		}
 	}
 	
+	@Override
+	public String toString() {
+//		String.format은 printf와 비슷. 스트링값으로 리턴해줌
+		return String.format("%,d", val);
+//		return String.valueOf(val);
+	}
+	
 	
 }
